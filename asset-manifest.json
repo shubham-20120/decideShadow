@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/decideShadow/static/css/main.3feec5e4.chunk.css",
+    "main.js": "/decideShadow/static/js/main.6654aef5.chunk.js",
+    "main.js.map": "/decideShadow/static/js/main.6654aef5.chunk.js.map",
+    "runtime-main.js": "/decideShadow/static/js/runtime-main.984c7ebd.js",
+    "runtime-main.js.map": "/decideShadow/static/js/runtime-main.984c7ebd.js.map",
+    "static/js/2.a1eebb04.chunk.js": "/decideShadow/static/js/2.a1eebb04.chunk.js",
+    "static/js/2.a1eebb04.chunk.js.map": "/decideShadow/static/js/2.a1eebb04.chunk.js.map",
+    "index.html": "/decideShadow/index.html",
+    "static/css/main.3feec5e4.chunk.css.map": "/decideShadow/static/css/main.3feec5e4.chunk.css.map",
+    "static/js/2.a1eebb04.chunk.js.LICENSE.txt": "/decideShadow/static/js/2.a1eebb04.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.984c7ebd.js",
+    "static/js/2.a1eebb04.chunk.js",
+    "static/css/main.3feec5e4.chunk.css",
+    "static/js/main.6654aef5.chunk.js"
+  ]
+}
