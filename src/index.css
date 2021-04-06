@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kiwi Maru", serif;
+  font-weight: bold;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sliders {
+  display: flex;
+  box-shadow: 0 0 0 white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 520px;
+  /* height: 55vh; */
+  background: rgb(147, 147, 243);
+  border-radius: 20px;
+  box-shadow: -5px -5px 15px black;
+}
+.displayProps {
+  background: rgb(199, 198, 198);
+  display: flex;
+  text-align: left;
+  width: 350px;
+  padding: 15px;
+  border-radius: 15px;
+  font-family: "Nanum Gothic Coding", monospace;
+}
+.middle-display {
+  display: flex;
+  justify-content: space-around;
+}
+.show {
+  width: 450px;
+  height: 55vh;
+  border-radius: 15px;
+  background: orange;
+}
+.marginUp {
+  margin-top: 5vh;
+}
+.color-palette {
+  width: 60px;
+  margin: 0.8vw 0 3vh 0;
+  height: 30px;
+}
+.choose {
+  display: flex;
+  margin-top: 5vh;
+  justify-content: space-evenly;
+}
+input {
+  width: 350px;
+}
+
+.color-classes {
+  margin-left: 10px;
+  width: 16vw;
+}
+@media only screen and (max-width: 1200px) {
+  .App {
+    flex-direction: column;
+    height: 120vh;
+  }
+  .upper {
+    flex-direction: column;
+  }
+  .sliders {
+    width: 400px;
+  }
+  .show {
+    display: none;
+  }
+  input {
+    width: 300px;
+    height: 30px;
+  }
+  .choose {
+    display: flex;
+    flex-direction: column;
+  }
+  .displayProps {
+    width: 350px;
+  }
+  .color-palette {
+    margin: 3px 0 10px 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  /*mobile*/
+  .App {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .upper {
+    flex-direction: column;
+  }
+  .sliders {
+    width: 280px;
+  }
+  .show {
+    display: none;
+  }
+  input {
+    width: 260px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  .marginUp {
+    margin-top: 15px;
+  }
+  .choose {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .choose p {
+    width: 300px;
+    margin-left: -120px;
+  }
+  .displayProps {
+    width: 250px;
+    font-size: 0.85rem;
+  }
+}
